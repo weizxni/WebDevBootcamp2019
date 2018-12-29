@@ -3,6 +3,9 @@ body {
 }
 
 .row1 {
+min-height: 20vw;
+}
+.row2 {
 min-height: 19vw;
 }
 .border-white
@@ -16,7 +19,7 @@ min-height: 19vw;
   background-color: #ea9085;
 }
 .panel2{
-  background-color: #6e5773;
+  background-color: #FFFFFF;
 }
 .panel3{
   background-color: #e9e2d0;
@@ -35,6 +38,7 @@ min-height: 19vw;
 
 .contain1{
   background-color: #6e5773;
+  color: white;
 
 }
 .row{
