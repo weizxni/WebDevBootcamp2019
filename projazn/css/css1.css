@@ -1,9 +1,10 @@
 body {
-  background-color: #e9e2d0;
+  background-color: #eaf6f6;
 }
 
 .row1 {
 min-height: 20vw;
+padding-top: 2vw;
 }
 .row2 {
 min-height: 19vw;
@@ -15,34 +16,33 @@ min-height: 19vw;
 .title1{
   text-align: center;
 }
-.panel1{
-  background-color: #ea9085;
-}
-.panel2{
-  background-color: #FFFFFF;
-}
-.panel3{
-  background-color: #e9e2d0;
-}
-.panel4{
-  background-color: #FFFFFF;
-}
+
 .picS{
-  max-width: 21%;
-  height: 20%;
+  width: 18vw;
+  height: 17vw;
   padding: .5%;
   margin: 1%;
   background-color: #000000;
+  background:rgba(1,1,1,0.5);
   color: #FFFFFF;
+}
+.ctrim
+{
+  width: 100%;
+  height: 10vw;
+  overflow: hidden;
 }
 
 .contain1{
-  background-color: #6e5773;
+  background-color: #66bfbf;
   color: white;
 
 }
 .row{
 justify-content: center;
+}
+.row2{
+padding: 3vw;
 }
 
 .carousel-control-prev, .carousel-control-next{
@@ -67,4 +67,49 @@ justify-content: flex-end;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 3%;
+}
+.sec1{
+  background-color: #66bfbf;
+  height: 15vw;
+  padding: 1vw;
+  color: white;
+}
+.ss1{
+  padding-left: 3vw;
+  padding-right: 0;
+  padding-bottom: 1vw;
+}
+.ss2{
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+  padding-bottom: 1vw;
+}
+.ss3{
+  padding-left: 0;
+  padding-right: 3vw;
+  padding-bottom: 1vw;
+}
+.s1
+{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/food4.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.s2
+{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/cook.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.s3
+{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/video.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.crtext{
+  font-size: 13px;
 }
