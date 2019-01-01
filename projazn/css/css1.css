@@ -190,7 +190,8 @@ h2
   border-color: #66bfbf;
   border-width: .1vw;
   background-color: white;
-  padding: 2vw;
+  min-height: 18vw;
+  padding: 1vw;
   margin: 1vw;
   border-style: solid;
 }
