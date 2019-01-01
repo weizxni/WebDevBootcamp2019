@@ -170,7 +170,7 @@ justify-content: flex-end;
   font-family: 'Sunshiney', cursive;
   position:absolute;
   top: 15vw;
-  left: 25vw;
+  left: 23vw;
 }
 h2
 {
@@ -218,7 +218,7 @@ h2
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #888; 
+  background: #888;
 }
 
 /* Handle on hover */
