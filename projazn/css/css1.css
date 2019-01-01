@@ -114,3 +114,23 @@ justify-content: flex-end;
 .crtext{
   font-size: 13px;
 }
+.sticker1{
+  width: 13vw;
+  position:absolute;
+  left: 9vw;
+  top: 3vw;
+}
+.sticker2{
+  width: 11vw;
+  position:absolute;
+  right: 11vw;
+  top: 8vw;
+  transform: rotate(-20deg);
+}
+.sticker3{
+  width: 9vw;
+  position:absolute;
+  right: 5vw;
+  top: 1vw;
+  transform: rotate(20deg);
+}
